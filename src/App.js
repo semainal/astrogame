@@ -7,6 +7,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Houses from "./pages/houses/Houses";
 
 
 
@@ -25,6 +26,10 @@ function App() {
 
     <Route path="/signs">
       <Signs/>
+    </Route>
+
+    <Route path="/houses">
+      <Houses/>
     </Route>
   </Switch>
   </Router>

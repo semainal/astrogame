@@ -35,6 +35,12 @@ function Topbar(props) {
             <Link className='link' to="/signs">Burçlar</Link>
             </NavLink>
           </NavItem>
+
+          <NavItem>
+            <NavLink href="/signs/" className='navLink' style={{color:"white"}}>
+            <Link className='link' to="/houses">Evler</Link>
+            </NavLink>
+          </NavItem>
         </Nav>
       </Collapse>
       <NavbarBrand href="/" className="me-auto navLink" style={{color:"white"}}>
