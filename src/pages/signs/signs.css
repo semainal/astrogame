@@ -34,6 +34,7 @@
     justify-content: center;
     align-items: center;
     opacity: 0.8;
+    
 }
 
 
@@ -51,6 +52,7 @@
     
    
 }
+
 
 .box2{
 
@@ -201,31 +203,68 @@
 
 .center{
     width: 100%;
-    height: 15%;
+    height: 10%;
     background: #7f8c8d;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    font-weight: 500;
+    font-size: 11px;
 
 }
 
 .bottom {
     width: 100%;
-    height: 50%;
+    height: 55%;
     background: #bdc3c7;
     justify-content: center;
     align-items: center;
+    overflow: visible;
+    overflow: hidden;
+    font-size: 5px;
 }
 
+
+.signsbottom{
+    display: flex;
+
+    
+}
+
+.list{
+    list-style: none;
+}
+
+.bottomplus {
+    margin-left: -33px;
+    color: green;
+    margin-top: 15px;
+    margin-right: -25px;
+  
+   
+    
+}
+
+.bottomnegative {
+  color:red;
+  margin-top: 15px;
+
+}
 .box:hover {
-     transform: scale(3.5); 
+     transform: scale(5.5); 
      z-index: 1;
      opacity: 1.5;
      position: absolute;
      margin: 250px;
+       
    }
+
+.list::first-line{
+    text-decoration: underline;
+}
+
+
+
 
 .signsImg{
     width: 40%;
