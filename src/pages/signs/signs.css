@@ -27,15 +27,18 @@
 }
 .circle {
     border-radius: 600px;
-    width: 600px;
+    position:sticky;
+    width: 100%;
     height: 600px;
-    margin: auto;
+    margin-left: -300px;
     text-align: center;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
-    
+
+   
 }
+
 
 
 .box1{
@@ -256,6 +259,7 @@
      opacity: 1.5;
      position: absolute;
      margin: 250px;
+     transition-duration: 0.8s;
        
    }
 

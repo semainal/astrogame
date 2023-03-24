@@ -8,6 +8,11 @@ import {
   Route,
 } from "react-router-dom";
 import Houses from "./pages/houses/Houses";
+import Elements from "./pages/elements/Elements";
+import Exam from "./pages/exam/Exam";
+
+
+
 
 
 
@@ -31,6 +36,19 @@ function App() {
     <Route path="/houses">
       <Houses/>
     </Route>
+
+    <Route path="/elements">
+      <Elements/>
+    </Route>
+
+    <Route path="/exam">
+      <Exam/>
+    </Route>
+
+
+
+    
+    
   </Switch>
   </Router>
 

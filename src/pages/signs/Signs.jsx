@@ -1,4 +1,5 @@
-import React from 'react'
+import {React} from 'react'
+
 import "./signs.css"
 import koc1 from "../../img/koc1.png"
 import boga1 from "../../img/boga1.png"
@@ -14,20 +15,35 @@ import kova1 from "../../img/kova1.png"
 import balik1 from "../../img/balik1.png"
 
 
+
+
+
 export default function Signs() {
+   
+
     return (
       <>
        <div className='signsTitle'>BURÇLAR</div>
        <div className='signs'>
+     
 
-       <div className='signsContent'>
-       <div className="circle">
-       <div className="box1 box">
-        <div className="top">
-      <img src={oglak1} alt="" className='signsImg'/>
+       <div className='signsContent' >
+       
+       <div className="circle"  >
+ 
+       <div>
+  
+</div>
+    
+       <div className="box1 box" id="sign" >
+       <div>
+  
+</div>
+        <div className="top" >
+      <img src={oglak1} alt="" className='signsImg'  />
         </div>
-        <div className="center">OĞLAK</div>
-        <div className="bottom signsbottom">
+        <div className="center">OĞLAK </div>
+        <div className="bottom signsbottom" >
             <div className="bottomplus">
                 <ul className='list'>POZİTİF
                 <li>
@@ -597,3 +613,4 @@ Yapmacık
   
     )
   }
+

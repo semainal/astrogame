@@ -1,0 +1,121 @@
+.elements{
+    width: 100%;
+    height:100vh;
+    background: url("../../img/planet3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.elementsTitle{
+    width: 100%;
+    background: #7f8c8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: aliceblue;
+}
+
+.img{
+    visibility: hidden;
+  
+    
+}
+
+.elementsImg{
+    opacity: 0.8;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+}
+
+
+
+.fireButton{
+    display: inline;
+    float: left;
+    background-color: #ff4d4d;
+    width: 15%;
+    margin: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Pacifico", sans-serif;
+
+}
+
+.airButton{
+   display: inline;
+   float: right;
+   background-color: #7efff5;
+   width: 15%;
+   margin: 120px;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: "Pacifico", sans-serif;
+}
+
+.waterButton{
+   display: inline;
+   float: left;
+   background-color: #32ff7e;
+   width: 15%;
+   margin: 120px;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: "Pacifico", sans-serif;
+
+}
+
+.earthButton{
+   display: inline;
+   float: right;
+   background-color: #fffa65;
+   width: 15%;
+   margin: 120px;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: "Pacifico", sans-serif;
+
+
+
+}
+
+.osdButtons {
+display:flex;
+  text-align:center;
+  justify-content: center;
+  margin-top: -550px;
+  position: absolute;
+  font-family: "Pacifico", sans-serif;
+  
+}
+
+.oncuButton {
+    background-color: #cd84f1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.sabitButton {
+    background-color:#ffaf40;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.degiskenButton {
+    background-color:#ffcccc;
+    padding: 10px;
+    border-radius: 10px;
+
+}
