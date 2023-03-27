@@ -14,23 +14,22 @@
 
 .examTitle{
     width: 100%;
-    background: #60a3bc;
+    background: #EEE9DA;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     font-weight: 600;
     font-style: italic;
-    color: white;
+    color: #6096B4;
 }
 
 .examSection{
   text-align: center;
   width: 70%;
-  background-color: #60a3bc;
+  background-color: #6096B4;
   color: white;
   justify-content: center;
-  opacity: 0.8;
   padding: 20px;
   border-radius: 10px;
 
@@ -41,7 +40,7 @@
   background-color: #93BFCF;
   margin: 20px;
   padding: 10px;
-  font-size: large;
+  font-size: 1.5em;
   border-radius: 10px;
 }
 
@@ -51,32 +50,35 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #BDCDD6;
+  background-color: #EEE9DA;
   margin-top: 20px;
   border-radius: 10px;
-  color: white;
+  color: #EEE9DA;
+  font-size: 16px;
+  padding: 10px;
   }
 
 .examButton{
   margin-left: 25%;
   width: 50%;
-  background-color: #60a3bc;
-  color:#bdc3c7;
+  background-color: #6096B4;
+  color:#EEE9DA;
   margin-top: 10px;
   margin-bottom: 10px;
   border: 5px solid #2c3e50;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .examScore{
   text-align: center;
-  background-color: #60a3bc;
+  background-color: #6096B4;
   justify-content: center;
   padding: 10%;
   font-style: italic;
   font-weight: bold;
   font-size: large;
-  opacity: 0.8;
+
 }
 
 .examScoreBox {
@@ -84,7 +86,7 @@
   text-align: center;
   justify-content: center;
   opacity: 0.8;
-  color:white;
+  color:#EEE9DA;
   padding: 25%;
 
 
@@ -95,8 +97,8 @@
   margin-top: 20%;
   border-radius: 10px;
   background-color:#60a3bc;
-  color: white;
-  border: 5px solid #93BFCF ;
+  color: #EEE9DA;
+  border: 5px solid #2c3e50 ;
 
 
 }

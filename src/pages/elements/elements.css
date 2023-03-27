@@ -14,14 +14,14 @@
 
 .elementsTitle{
     width: 100%;
-    background: #60a3bc;
+    background:#EEE9DA;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     font-weight: 600;
     font-style: italic;
-    color: aliceblue;
+    color:#60a3bc;
 }
 
 .img{
@@ -43,54 +43,75 @@
 .fireButton{
     display: inline;
     float: left;
-    background-color: #ff3838;
+    background-color:#60a3bc;
     width: 15%;
     margin: 120px;
     padding: 10px;
     border-radius: 10px;
     font-family: "Pacifico", sans-serif;
+    color: aliceblue;
 
 
+}
+
+.fireButton:hover{
+    background-color: #FD8A8A;
+    color: black;
 }
 
 .airButton{
    display: inline;
    float: right;
-   background-color: #17c0eb;
+   background-color:#60a3bc;
    width: 15%;
    margin: 120px;
    padding: 10px;
    border-radius: 10px;
    font-family: "Pacifico", sans-serif;
+   color: aliceblue;
 
+}
+
+.airButton:hover{
+    background-color: #AEE2FF;
+    color: black;
 }
 
 .waterButton{
    display: inline;
    float: left;
-   background-color: #3ae374;
+   background-color:#60a3bc;
    width: 15%;
    margin: 120px;
    padding: 10px;
    border-radius: 10px;
    font-family: "Pacifico", sans-serif;
+   color: aliceblue;
 
 
+}
+
+.waterButton:hover{
+    background-color: #B5F1CC;
+    color: black;
 }
 
 .earthButton{
    display: inline;
    float: right;
-   background-color: #fff200;
+   background-color:#60a3bc;
    width: 15%;
    margin: 120px;
    padding: 10px;
    border-radius: 10px;
    font-family: "Pacifico", sans-serif;
+   color: aliceblue;
 
+}
 
-
-
+.earthButton:hover{
+    background-color: #FDFDBD;
+    color: black;
 }
 
 .osdButtons {
@@ -105,25 +126,54 @@ display:flex;
 }
 
 .oncuButton {
-    background-color: #c56cf0;
+    background-color:#60a3bc;
     padding: 10px;
     border-radius: 10px;
     margin-right: 30px;
+    margin-bottom: 50px;
+    color: aliceblue;
 
+}
+
+.oncuButton:hover{
+    background-color: #D9ACF5;
+    color: black;
 }
 
 .sabitButton {
-    background-color:#ff9f1a;
+    background-color:#60a3bc;
     padding: 10px;
     border-radius: 10px;
     margin-right: 30px;
+    color: aliceblue;
+    margin-bottom: 50px;
 
 }
 
+.sabitButton:hover{
+    background-color: #FEBE8C;
+    color: black;
+}
+
 .degiskenButton {
-    background-color:#ffb8b8;
+    background-color:#60a3bc;
     padding: 10px;
     border-radius: 10px;
+    color: aliceblue;
+    margin-bottom: 50px;
 
 
+}
+
+.degiskenButton:hover{
+    background-color: #FFCEFE;
+    color: black;
+}
+
+.elementsCenterImg{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
 }

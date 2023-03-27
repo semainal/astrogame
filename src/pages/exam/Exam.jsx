@@ -11,7 +11,7 @@ export default function Exam() {
 const [currentQuestion, setCurrentQuestion] = useState(0);
 
 const [showScore, setShowScore] = useState(false);
-const [answer, setAnswer] = useState(false);
+
 
 const refreshPage = () =>window.location.reload()
 
@@ -34,6 +34,10 @@ const handleAnswerButtonClick = (isCorrect) => {
 	}
 };
 
+
+
+
+
 	return (
         <>
         <div className="examTitle">QUIZ</div>
@@ -41,7 +45,7 @@ const handleAnswerButtonClick = (isCorrect) => {
       {showScore ? (
 				<div className='score-section examScore'>
                     <div className="examScoreBox">
-                    You scored {score} out of {questions.length}</div>
+                    Sonuç : {score} / {questions.length}</div>
                       <button onClick={refreshPage} className="examRetryButton">Retry</button>
                     
                     </div>
