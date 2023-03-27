@@ -14,88 +14,91 @@
 
 .examTitle{
     width: 100%;
-    background: #7f8c8d;
+    background: #60a3bc;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     font-weight: 600;
     font-style: italic;
-    color: aliceblue;
+    color: white;
+}
+
+.examSection{
+  text-align: center;
+  width: 70%;
+  background-color: #60a3bc;
+  color: white;
+  justify-content: center;
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.examText{
+  text-align: center;
+  background-color: #93BFCF;
+  margin: 20px;
+  padding: 10px;
+  font-size: large;
+  border-radius: 10px;
 }
 
 
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  font-family: "Verdana", cursive, sans-serif;
-  color: #ffffff;
-}
-
-
-
-
-
-.score-section {
+.examAnswer{
+  text-align: center;
   display: flex;
-  font-size: 24px;
-  align-items: center;
-}
-
-/* QUESTION/TIMER/LEFT SECTION */
-.question-section {
-  width: 100%;
-  position: relative;
-}
-
-.question-count {
-  margin-bottom: 20px;
-}
-
-.question-count span {
-  font-size: 28px;
-}
-
-.question-text {
-  margin-bottom: 12px;
-  line-height: 1.5em;
-}
-
-/* ANSWERS/RIGHT SECTION */
-.answer-section {
-  width: 90%;
-  display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-between;
+  background-color: #BDCDD6;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+  }
+
+.examButton{
+  margin-left: 25%;
+  width: 50%;
+  background-color: #60a3bc;
+  color:#bdc3c7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #2c3e50;
+  border-radius: 10px;
 }
 
-button {
-  width: 100%;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #1b6552;
-  border-radius: 15px;
-  display: flex;
-  padding: 5px;
-  justify-content: flex-start;
-  align-items: center;
-  border: 5px solid #72dac0;
-  cursor: pointer;
+.examScore{
+  text-align: center;
+  background-color: #60a3bc;
+  justify-content: center;
+  padding: 10%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+  opacity: 0.8;
 }
 
-button:hover {
-  background-color: #72dac0;
+.examScoreBox {
+  background:#93BFCF;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.8;
+  color:white;
+  padding: 25%;
+
+
 }
 
-button:focus {
-  outline: none;
+.examRetryButton{
+  text-align: center;
+  margin-top: 20%;
+  border-radius: 10px;
+  background-color:#60a3bc;
+  color: white;
+  border: 5px solid #93BFCF ;
+
+
 }
 
-button svg {
-  margin-right: 5px;
-}
+

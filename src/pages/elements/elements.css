@@ -14,7 +14,7 @@
 
 .elementsTitle{
     width: 100%;
-    background: #7f8c8d;
+    background: #60a3bc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,47 +43,51 @@
 .fireButton{
     display: inline;
     float: left;
-    background-color: #ff4d4d;
+    background-color: #ff3838;
     width: 15%;
     margin: 120px;
     padding: 10px;
     border-radius: 10px;
     font-family: "Pacifico", sans-serif;
 
+
 }
 
 .airButton{
    display: inline;
    float: right;
-   background-color: #7efff5;
+   background-color: #17c0eb;
    width: 15%;
    margin: 120px;
    padding: 10px;
    border-radius: 10px;
    font-family: "Pacifico", sans-serif;
+
 }
 
 .waterButton{
    display: inline;
    float: left;
-   background-color: #32ff7e;
+   background-color: #3ae374;
    width: 15%;
    margin: 120px;
    padding: 10px;
    border-radius: 10px;
    font-family: "Pacifico", sans-serif;
+
 
 }
 
 .earthButton{
    display: inline;
    float: right;
-   background-color: #fffa65;
+   background-color: #fff200;
    width: 15%;
    margin: 120px;
    padding: 10px;
    border-radius: 10px;
    font-family: "Pacifico", sans-serif;
+
 
 
 
@@ -96,26 +100,30 @@ display:flex;
   margin-top: -550px;
   position: absolute;
   font-family: "Pacifico", sans-serif;
+ 
   
 }
 
 .oncuButton {
-    background-color: #cd84f1;
+    background-color: #c56cf0;
     padding: 10px;
     border-radius: 10px;
     margin-right: 30px;
+
 }
 
 .sabitButton {
-    background-color:#ffaf40;
+    background-color:#ff9f1a;
     padding: 10px;
     border-radius: 10px;
     margin-right: 30px;
+
 }
 
 .degiskenButton {
-    background-color:#ffcccc;
+    background-color:#ffb8b8;
     padding: 10px;
     border-radius: 10px;
+
 
 }

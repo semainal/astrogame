@@ -15,7 +15,7 @@
 
 .planetsTitle{
     width: 100%;
-    background: #7f8c8d;
+    background: #41729F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@
 .kolom .top{
     width: 100%;
     height: 20%;
-    background:#2c3e50;
+    background:#6096B4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@
 .kolom .center{
     width: 100%;
     height: 10%;
-    background: #7f8c8d;
+    background: #93BFCF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@
 .kolom .bottom{
     width: 100%;
     height: 70%;
-    background: #bdc3c7;
+    background: #BDCDD6;
     justify-content: center;
     align-items: center;
     font-size: 11px;
