@@ -5,3 +5,10 @@
     padding-top: 15px;
 
 }
+
+@media screen and (max-width: 782px){
+    .housesbottom{
+        font-size: 0.2em;
+        padding-top: 15%;
+    }
+}
