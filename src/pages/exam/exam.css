@@ -113,6 +113,217 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+
+
+
+}
+
+.examTitle{
+    width: 100%;
+    background: #EEE9DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: #6096B4;
+}
+
+.examSection{
+  margin-top: -200%;
+  text-align: center;
+  width: 80%;
+  background-color: #6096B4;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.examText{
+  text-align: center;
+  background-color: #93BFCF;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+
+.examAnswer{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #EEE9DA;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #EEE9DA;
+  font-size: 0.6em;
+
+  }
+
+.examButton{
+  margin-left: 25%;
+  width: 50%;
+  background-color: #6096B4;
+  color:#EEE9DA;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #2c3e50;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.examScore{
+  text-align: center;
+  background-color: #6096B4;
+  justify-content: center;
+  padding: 10%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+  margin-top: -300%;
+
+}
+
+.examScoreBox {
+  background:#93BFCF;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.8;
+  color:#EEE9DA;
+  padding: 25%;
+
+
+}
+
+.examRetryButton{
+  text-align: center;
+  margin-top: 20%;
+  border-radius: 10px;
+  background-color:#60a3bc;
+  color: #EEE9DA;
+  border: 5px solid #2c3e50 ;
+
+
+}
+}
+
+@media screen and (min-width: 783px) and (max-width: 1024px){
+  .exam{
+    width: 100%;
+    height:150vh;
+    background: url("../../img/planet3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.examTitle{
+    width: 100%;
+    background: #EEE9DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    color: #6096B4;
+}
+
+.examSection{
+  margin-top: 10%;
+  text-align: center;
+  width: 80%;
+  background-color: #6096B4;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.examText{
+  text-align: center;
+  background-color: #93BFCF;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+
+.examAnswer{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #EEE9DA;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #EEE9DA;
+  font-size: 0.6em;
+
+  }
+
+.examButton{
+  margin-left: 25%;
+  width: 50%;
+  background-color: #6096B4;
+  color:#EEE9DA;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #2c3e50;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.examScore{
+  text-align: center;
+  background-color: #6096B4;
+  justify-content: center;
+  padding: 10%;
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.examScoreBox {
+  background:#93BFCF;
+  text-align: center;
+  justify-content: center;
+  opacity: 0.8;
+  color:#EEE9DA;
+  padding: 25%;
+
+
+}
+
+.examRetryButton{
+  text-align: center;
+  margin-top: 20%;
+  border-radius: 10px;
+  background-color:#60a3bc;
+  color: #EEE9DA;
+  border: 5px solid #2c3e50 ;
+
+
+}
+}
+
+
+>>>>>>> 6ada8914a6c4e95b18dcf98ad979f1498fca9462
 
 
 
