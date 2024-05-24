@@ -135,26 +135,8 @@ export default function Houses() {
         Ailemiz, ebeveynlerimiz, atalarımız, köklerimiz. Anavatanımız, kalıtımsal özelliklerimiz, çocukluk yıllarımız, gizli servetler. Taşınmaz mallar.
         </div></div> 
        </div>
-
-    
-        
-       
-
 </div>
-
-
-
-       
     </div>
-
-
-
-
-
-
-        
-     
-  
  </>
   
     )

@@ -26,7 +26,6 @@
 
 .img{
     visibility: hidden;
-  
     
 }
 
@@ -35,7 +34,8 @@
     text-align: center;
     justify-content: center;
     position: absolute;
-    width: 30%;
+    width: 35%;
+    margin-top: 10%;
 }
 
 
@@ -118,7 +118,7 @@
 display:flex;
   text-align:center;
   justify-content: center;
-  margin-top: -550px;
+  margin-top: -650px;
   position: absolute;
   font-family: "Pacifico", sans-serif;
  
@@ -127,9 +127,9 @@ display:flex;
 
 .oncuButton {
     background-color:#60a3bc;
-    padding: 10px;
+    padding: 5%;
     border-radius: 10px;
-    margin-right: 30px;
+    margin-right: 15%;
     margin-bottom: 50px;
     color: aliceblue;
 
@@ -142,8 +142,8 @@ display:flex;
 
 .sabitButton {
     background-color:#60a3bc;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5%;
+    border-radius: 15%;
     margin-right: 30px;
     color: aliceblue;
     margin-bottom: 50px;
@@ -157,7 +157,7 @@ display:flex;
 
 .degiskenButton {
     background-color:#60a3bc;
-    padding: 10px;
+    padding: 5%;
     border-radius: 10px;
     color: aliceblue;
     margin-bottom: 50px;
@@ -176,4 +176,362 @@ display:flex;
     text-align: center;
     justify-content: center;
     width: 25%;
+}
+
+@media screen and (max-width: 480px){
+    .elements{
+        width: 100%;
+      
+        background: url("../../img/planet3.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+    .elementsCenterImg{
+        position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.elementsImg{
+    opacity: 0.8;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 45%;
+    margin-top: -55%;
+}
+
+.fireButton{
+    display: flex;
+    background-color:#60a3bc;
+    padding: 10px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    font-family: "Pacifico", sans-serif;
+    color: aliceblue;
+    position: absolute;
+    margin-top: -60%;
+    margin-left: -40%;
+
+
+}
+
+.fireButton:hover{
+    background-color: #FD8A8A;
+    color: red;
+}
+
+.airButton{
+   display: inline;
+   float: right;
+   background-color:#60a3bc;
+   width: 15%;
+
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 0.8em;
+   font-family: "Pacifico", sans-serif;
+   color: aliceblue;
+   position: absolute;
+   margin-top: -60%;
+   margin-left: 30%;
+
+}
+
+.airButton:hover{
+    background-color: #6ec7f7;
+    color: blue;
+}
+
+.waterButton{
+   display: inline;
+   float: left;
+   background-color:#60a3bc;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: "Pacifico", sans-serif;
+   font-size: 0.8em;
+   color: aliceblue;
+   position: absolute;
+   margin-top: -5%;
+   margin-left: -40%;
+
+
+}
+
+.waterButton:hover{
+    background-color: #B5F1CC;
+    color: green;
+}
+
+.earthButton{
+   display: inline;
+   float: right;
+   background-color:#60a3bc;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 0.8em;
+   font-family: "Pacifico", sans-serif;
+   color: aliceblue;
+   width: 20%;
+   position: absolute;
+   margin-top: -5%;
+   margin-left: 25%;
+
+}
+
+.earthButton:hover{
+    background-color: rgb(246, 134, 29);
+    color: brown;
+}
+
+.osdButtons {
+display:flex;
+  text-align:center;
+  justify-content: center;
+
+  position: absolute;
+  font-family: "Pacifico", sans-serif;
+ 
+  
+}
+
+.oncuButton {
+    background-color:#60a3bc;
+    padding: 5%;
+    border-radius: 10px;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    color: aliceblue;
+
+}
+
+.oncuButton:hover{
+    background-color: #D9ACF5;
+    color: black;
+}
+
+.sabitButton {
+    background-color:#60a3bc;
+    padding: 5%;
+    border-radius: 15%;
+    margin-right: 30px;
+    color: aliceblue;
+    margin-bottom: 50px;
+
+}
+
+.sabitButton:hover{
+    background-color: #FEBE8C;
+    color: black;
+}
+
+.degiskenButton {
+    background-color:#60a3bc;
+    padding: 5%;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-bottom: 50px;
+
+
+}
+
+.degiskenButton:hover{
+    background-color: #FFCEFE;
+    color: black;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width: 783px) and (max-width: 1024px) {
+    .elements{
+        width: 100%;
+        height: 200vh;
+        background: url("../../img/planet3.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+    .elementsCenterImg{
+        position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 45%;
+   
+}
+
+.elementsImg{
+    opacity: 0.8;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 45%;
+    margin-top: 5%;
+  
+}
+
+.fireButton{
+    display: flex;
+    background-color:#60a3bc;
+    padding: 10px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    font-family: "Pacifico", sans-serif;
+    color: aliceblue;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: -40%;
+
+
+}
+
+.fireButton:hover{
+    background-color: #FD8A8A;
+    color: red;
+}
+
+.airButton{
+   display: inline;
+   float: right;
+   background-color:#60a3bc;
+   width: 15%;
+
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 0.8em;
+   font-family: "Pacifico", sans-serif;
+   color: aliceblue;
+   position: absolute;
+   margin-top: -20%;
+   margin-left: 30%;
+
+}
+
+.airButton:hover{
+    background-color: #6ec7f7;
+    color: blue;
+}
+
+.waterButton{
+   display: inline;
+   float: left;
+   background-color:#60a3bc;
+   padding: 10px;
+   border-radius: 10px;
+   font-family: "Pacifico", sans-serif;
+   font-size: 0.8em;
+   color: aliceblue;
+   position: absolute;
+   margin-top: 20%;
+   margin-left: -40%;
+
+
+}
+
+.waterButton:hover{
+    background-color: #B5F1CC;
+    color: green;
+}
+
+.earthButton{
+   display: inline;
+   float: right;
+   background-color:#60a3bc;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 0.8em;
+   font-family: "Pacifico", sans-serif;
+   color: aliceblue;
+   width: 20%;
+   position: absolute;
+   margin-top: 20%;
+   margin-left: 25%;
+
+}
+
+.earthButton:hover{
+    background-color: rgb(246, 134, 29);
+    color: brown;
+}
+
+.osdButtons {
+display:flex;
+  text-align:center;
+  justify-content: center;
+  margin-top: -60%;
+  position: absolute;
+  font-family: "Pacifico", sans-serif;
+ 
+  
+}
+
+.oncuButton {
+    background-color:#60a3bc;
+    padding: 5%;
+    border-radius: 10px;
+    margin-right: 15%;
+    margin-bottom: 50px;
+    color: aliceblue;
+
+}
+
+.oncuButton:hover{
+    background-color: #D9ACF5;
+    color: black;
+}
+
+.sabitButton {
+    background-color:#60a3bc;
+    padding: 5%;
+    border-radius: 15%;
+    margin-right: 30px;
+    color: aliceblue;
+    margin-bottom: 50px;
+
+}
+
+.sabitButton:hover{
+    background-color: #FEBE8C;
+    color: black;
+}
+
+.degiskenButton {
+    background-color:#60a3bc;
+    padding: 5%;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-bottom: 50px;
+
+
+}
+
+.degiskenButton:hover{
+    background-color: #FFCEFE;
+    color: black;
+}
+
+
+
+
+
+
+    
 }

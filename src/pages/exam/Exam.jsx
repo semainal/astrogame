@@ -12,6 +12,8 @@ const [currentQuestion, setCurrentQuestion] = useState(0);
 
 const [showScore, setShowScore] = useState(false);
 
+const [trueQuestion, setTrueQuestion] = useState("")
+
 
 const refreshPage = () =>window.location.reload()
 
@@ -21,7 +23,9 @@ const handleAnswerButtonClick = (isCorrect) => {
 	if (isCorrect===true) {
 		setScore(score + 1);
         
-	} 
+	} else {
+		setTrueQuestion(trueQuestion);
+	}
 
         
     

@@ -20,7 +20,7 @@ const questions = shuffleArray([
             { answerText: ["Mantıklı",",","Çalışkan",",","Mesafeli"], isCorrect: false },
             { answerText: ["Orjinal",",","Yenilikçi",",","İnsancıl"], isCorrect: false },
             { answerText: ["Enerjik",",","Coşkulu",",","Lider Ruhlu"], isCorrect: true },
-            { answerText: ["Tutkulu",",","Sadık",",","Kerum"], isCorrect: false },
+            { answerText: ["Tutkulu",",","Sadık",",","Ketum"], isCorrect: false },
         ],)
     },
     {

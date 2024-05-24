@@ -1,19 +1,287 @@
 .signs{
-    width: 100%;
-    height:100vh;
-    background: url("../../img/planet3.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("../../img/planet3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
 
+.signsTitle{
+  background: #EEE9DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  color: #6096B4;
+
+}
+.circle {
+  border-radius: 600px;
+  width: 100%;
+  height: 600px;
+  position: sticky;
+  padding-top: 7%;
+  padding-left: 35%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+
+ 
+}
+
+
+
+.box1{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 250px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+
+
+.box2{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 100px;
+ 
+ 
+  
+}
+
+.box3{
+ 
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 400px;
+
+ 
+
+}
+
+.box4{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -20px;
 
 
 }
 
-.signsTitle{
-    width: 100%;
+.box5{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 520px;
+  
+
+}
+
+.box6{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left:-70px ;
+  margin-top: 240px;
+
+}
+
+.box7{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-left:570px ;
+  margin-top: 240px;
+
+
+}
+
+.box8{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 390px;
+  margin-left: -20px;
+
+
+}
+
+.box9{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 390px;
+  margin-left: 520px;
+
+}
+
+.box10{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 90px;
+
+}
+
+.box11{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 410px;
+
+}
+
+.box12{
+
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 250px;
+
+}
+
+.top{
+  width: 100%;
+  height: 35%;
+  background:#6096B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  width: 100%;
+  height: 10%;
+  background: #93BFCF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 11px;
+
+}
+
+.bottom {
+  width: 100%;
+  height: 55%;
+  background: #BDCDD6;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+  overflow: hidden;
+  font-size: 5px;
+}
+
+
+.signsbottom{
+  display: flex;
+
+  
+}
+
+.list{
+  list-style: none;
+}
+
+.bottomplus {
+  margin-left: -33px;
+  color: green;
+  margin-top: 15px;
+  margin-right: -25px;
+
+ 
+  
+}
+
+.bottomnegative {
+color:red;
+margin-top: 15px;
+
+}
+.box:hover {
+   transform: scale(5.5); 
+   z-index: 1;
+   opacity: 1.5;
+   position: absolute;
+   margin: 250px;
+   transition-duration: 0.8s;
+     
+ }
+
+.list::first-line{
+  text-decoration: underline;
+}
+
+
+
+
+.signsImg{
+  width: 40%;
+}
+
+
+
+@media screen and (max-width: 782px){
+
+  .signs{
+    background: url("../../img/planet3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signsTitle{
     background: #EEE9DA;
     display: flex;
     justify-content: center;
@@ -22,189 +290,172 @@
     font-weight: 600;
     font-style: italic;
     color: #6096B4;
+  
+  }
 
-
-}
-.circle {
-    border-radius: 600px;
-    position:sticky;
-    width: 100%;
-    height: 600px;
-    margin-left: -300px;
+  
+  .box1{
+  
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.8;
-
-   
-}
-
-
-
-.box1{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
     position: absolute;
-    margin-top: -45px;
-    margin-left: 250px;
+    margin-top: 5%;
+    margin-left:12%;
     justify-content: center;
     align-items: center;
     
-   
-}
-
-
-.box2{
-
+  }
+  
+  
+  .box2{
+  
     text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
     position: absolute;
-    margin-left: 100px;
+    margin-left: -6%;
+    margin-top: 10%;
    
+  }
+  
+  .box3{
    
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top:10%;
+  
+   
+  
+  }
+  
+  .box4{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: -21%;
+  
+  
+  }
+  
+  .box5{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 45%;
     
-}
-
-.box3{
-   
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-left: 400px;
-
-   
   
-}
-
-.box4{
- 
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -20px;
-
-
-}
-
-.box5{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 520px;
-    
-
-}
-
-.box6{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-left:-70px ;
-    margin-top: 240px;
-
-}
-
-.box7{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-left:570px ;
-    margin-top: 240px;
-
+  }
   
-}
-
-.box8{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 390px;
-    margin-left: -20px;
-
-
-}
-
-.box9{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 390px;
-    margin-left: 520px;
-
-}
-
-.box10{
- 
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 90px;
-
-}
-
-.box11{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 410px;
-
-}
-
-.box12{
-
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 250px;
+  .box6{
   
-}
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left:-28% ;
+    margin-top: 40%;
+  
+  }
+  
+  .box7{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left:50% ;
+    margin-top: 40%;
 
-.top{
+  }
+  
+  .box8{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 57%;
+    margin-left: -21%;
+  
+  
+  }
+  
+  .box9{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 45%;
+  
+  }
+  
+  .box10{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: -5%;
+  
+  }
+  
+  .box11{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 30%;
+  
+  }
+  
+  .box12{
+  
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 78%;
+    margin-left: 12%;
+  
+  }
+  
+  .top{
     width: 100%;
     height: 35%;
     background:#6096B4;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.center{
+  }
+  
+  .center{
     width: 100%;
     height: 10%;
     background: #93BFCF;
@@ -212,33 +463,41 @@
     justify-content: center;
     align-items: center;
     font-style: italic;
-    font-size: 11px;
-
-}
-
-.bottom {
+    font-size: 0.3em;
+  
+  }
+  
+  .bottom {
     width: 100%;
-    height: 55%;
+    height: 65%;
     background: #BDCDD6;
+    display: flex;
     justify-content: center;
     align-items: center;
     overflow: visible;
     overflow: hidden;
     font-size: 5px;
-}
+   
+ 
+  }
 
+  
 
-.signsbottom{
+  
+  
+  
+  .signsbottom{
     display: flex;
-
+  
     
-}
-
-.list{
+  }
+  
+  .list{
     list-style: none;
-}
-
-.bottomplus {
+    font-size:0.4em;
+  }
+  
+  .bottomplus {
     margin-left: -33px;
     color: green;
     margin-top: 15px;
@@ -246,30 +505,56 @@
   
    
     
-}
-
-.bottomnegative {
+  }
+  
+  .bottomnegative {
   color:red;
   margin-top: 15px;
-
-}
-.box:hover {
+  
+  
+  }
+  .box:hover {
      transform: scale(5.5); 
      z-index: 1;
      opacity: 1.5;
      position: absolute;
-     margin: 250px;
+     margin-top:35%;
+     margin-left: 13%;
      transition-duration: 0.8s;
        
    }
-
-.list::first-line{
+  
+  .list::first-line{
     text-decoration: underline;
+  }
+  
+  
+  
+  
+  .signsImg{
+    width: 30%;
+  }
+
+  li{
+    margin-top: 5%;
+  }
+  
 }
 
+@media screen and (min-width: 783px) and (max-width: 1024px) {
+
+  .signs{
+    background: url("../../img/planet3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 300vh;
+    height: 300vh;
+  }
 
 
 
-.signsImg{
-    width: 40%;
 }
+
+  
